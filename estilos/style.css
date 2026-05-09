@@ -115,4 +115,36 @@ section#ficha h1 {
   color: var(--destaque-inverso);
 }
 
+section#detalhes {
+  grid-column: 2;
+
+}
+
+article {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+article h2 {
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 1995px; /* Isso controla o quão "reduzido" ele será */
+  margin: auto;
+}
+
+.video-container video {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+
+}
+
 
